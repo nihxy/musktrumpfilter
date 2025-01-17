@@ -3,7 +3,7 @@
 *##body:xpath('//a[contains(translate(text(), "TRUMP", "trump"), "trump") or contains(translate(@title, "TRUMP", "trump"), "trump")]')
 *##body:xpath('//faceplate-tracker[.//*[contains(translate(text(), "TRUMP", "trump"), "trump") or contains(translate(@title, "TRUMP", "trump"), "trump")]]')
 
-#?#:xpath('//li[.//a[contains(translate(text(), "TRUMP", "trump"), "trump") or contains(translate(@title, "TRUMP", "trump"), "trump")]]')
-#?#:xpath('//article[.//*[contains(translate(text(), "TRUMP", "trump"), "trump")]]')
-#?#:xpath('//a[contains(translate(text(), "TRUMP", "trump"), "trump") or contains(translate(@title, "TRUMP", "trump"), "trump")]')
-#?#:xpath('//faceplate-tracker[.//*[contains(translate(text(), "TRUMP", "trump"), "trump") or contains(translate(@title, "TRUMP", "trump"), "trump")]]')
+##li:has-text(trump)
+##a:has-text(trump)
+##article:has-text(trump)
+##faceplate-tracker:has-text(trump)
