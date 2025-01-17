@@ -1,0 +1,4 @@
+*##body:xpath('//li[.//a[contains(translate(text(), "TRUMP", "trump"), "trump") or contains(translate(@title, "TRUMP", "trump"), "trump")]]')
+*##body:xpath('//article[.//*[contains(translate(text(), "TRUMP", "trump"), "trump")]]')
+*##body:xpath('//a[contains(translate(text(), "TRUMP", "trump"), "trump") or contains(translate(@title, "TRUMP", "trump"), "trump")]')
+*##body:xpath('//faceplate-tracker[.//*[contains(translate(text(), "TRUMP", "trump"), "trump") or contains(translate(@title, "TRUMP", "trump"), "trump")]]')

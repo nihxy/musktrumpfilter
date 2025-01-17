@@ -1,0 +1,4 @@
+*##body:xpath('//li[.//a[contains(translate(text(), "MUSK", "musk"), "musk") or contains(translate(@title, "MUSK", "musk"), "musk")]]')
+*##body:xpath('//article[.//*[contains(translate(text(), "MUSK", "musk"), "musk")]]')
+*##body:xpath('//a[contains(translate(text(), "MUSK", "musk"), "musk") or contains(translate(@title, "MUSK", "musk"), "musk")]')
+*##body:xpath('//faceplate-tracker[.//*[contains(translate(text(), "MUSK", "musk"), "musk") or contains(translate(@title, "MUSK", "musk"), "musk")]]')
